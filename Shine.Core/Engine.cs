@@ -46,6 +46,7 @@ public partial class ShineEngine
         string[] arguments = splits[1..];
 
         await Cli.Wrap(target)
+            .WithValidation(CommandResultValidation.None) // sussy wussy
             .WithStandardOutputPipe(PipeTarget.ToDelegate(Console.WriteLine))
             .WithArguments(arguments)
             .ExecuteAsync();
