@@ -1,7 +1,9 @@
 # Shine
+Program for running configured command-line jobs.
 
 ## Usage
-Config file "shine_config.json" is placed in the build directory
+Place/create a config file in the build directory called "shine_config.json"
+Run
 
 ## Example config
 ```json
