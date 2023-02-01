@@ -1,6 +1,9 @@
 # Shine
 
-## Example config:
+## Usage
+Config file "shine_config.json" is placed in the build directory
+
+## Example config
 ```json
 {
 	"jobs":[
